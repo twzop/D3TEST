@@ -1,0 +1,10 @@
+.idea/
+node_modules/
+
+.idea
+
+node_modules/gulp-connect/node_modules/connect-livereload/package.json
+
+node_modules/gulp-connect/node_modules/connect-livereload/package.json
+
+node_modules/gulp-connect/node_modules/connect/node_modules/body-parser/node_modules/iconv-lite/package.json
