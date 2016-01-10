@@ -1,0 +1,28 @@
+{
+  "name": "d3test",
+  "version": "1.0.0",
+  "description": "Sample project to learn D3JS",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "data",
+    "visualization",
+    "web",
+    "app"
+  ],
+  "author": "Leo McKenzie III",
+  "license": "ISC",
+  "devDependencies": {
+    "d3": "^3.5.12",
+    "gulp": "^3.9.0",
+    "gulp-connect": "^2.3.1",
+    "gulp-load-plugins": "^1.2.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-util": "^3.0.7",
+    "jquery": "^2.2.0",
+    "jshint": "^2.8.0"
+  }
+}
