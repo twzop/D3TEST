@@ -7,7 +7,7 @@ var bardata = [20, 30, 45, 15, 150, 30, 45, 15],
 d3.select('#chart').append('svg')
     .attr('width', width)
     .attr('height', height)
-    .style('background', '#C9D7D6')
+    .style('background', '#c8c8c8')
     .selectAll('rect').data(bardata)
     .enter().append('rect')
         .style('fill', '#c61c6f')
