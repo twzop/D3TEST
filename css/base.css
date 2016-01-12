@@ -1,7 +1,11 @@
 body {
-  background-color: #f4f4f4; }
+  background-color: #f4f4f4;
+  text-align: center; }
 
 h2 {
+  font-family: sans-serif;
   color: #cb4b19;
   font-weight: 600;
-  font-size: 25px; }
+  font-size: 32px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #c4c4c4; }

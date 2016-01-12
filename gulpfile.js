@@ -18,7 +18,7 @@ var gulp = require('gulp'),
 gulp.task('sass', function() {
    return gulp.src(['./sass/base.scss'])
        .pipe(sass())
-       .pipe(gulp.dest(output.css))
+       .pipe(gulp.dest('./css'))
        .pipe(connect.reload());
 });
 
@@ -36,7 +36,7 @@ gulp.task('html', function() {
 // Watchers
 gulp.task('watch', function() {
    gulp.watch(['./**/*.html'], ['html']);
-    gulp.watch(['./css/**/*.scss'], ['sass']);
+    gulp.watch(['./sass/**/*.scss'], ['sass']);
     gulp.watch(['./js/**/*.js'], ['js']);
 });
 
