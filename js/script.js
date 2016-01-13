@@ -71,7 +71,10 @@ var myChart = d3.select('#chart').append('svg')
     .on('mouseout', function() {
         d3.select(this)
             .style('opacity', 1)
-            .style('fill', tempColor)
+            .style('fill', tempColor);
+
+        tooltip.transition()
+            .style('opacity', 0);
     });
 
 
