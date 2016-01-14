@@ -56,7 +56,11 @@ var myChart = d3.select('#chart').append('svg')
     .attr('width', width)
     .attr('height', height)
 <<<<<<< HEAD
+<<<<<<< HEAD
 	.style('border-bottom', '4px solid #b5b5b5')
+=======
+    .append('g')
+>>>>>>> origin/master
 =======
     .append('g')
 >>>>>>> origin/master
